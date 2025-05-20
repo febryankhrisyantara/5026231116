@@ -32,3 +32,45 @@ Route::get('blog', function () {
 });
 
 Route::get('hello', [Coba::class, 'helloworld']);
+
+Route::get('pertama', function () {
+	return view('pertama');
+});
+
+Route::get('kedua', function () {
+	return view('tugasdesignlinktree');
+});
+
+Route::get('ketiga', function () {
+	return view('latihankode5');
+});
+
+Route::get('keempat', function () {
+	return view('js2');
+});
+
+Route::get('kelima', function () {
+	return view('js1');
+});
+
+Route::get('keenam', function () {
+	return view('bootstrap2');
+});
+
+Route::get('ketujuh', function () {
+	return view('bootstrap1');
+});
+
+Route::get('kedelapan', function () {
+	return view('latihangrid');
+});
+
+Route::get('tugasets', function () {
+	return view('ETS');
+});
+
+
+Route::get('frontend', function () {
+	return view('kumpulanlink');
+});
+

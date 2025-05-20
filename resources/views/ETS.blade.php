@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Jasa Pasang Kaca Film Mobil - Jasa Pasang Kaca Film Bangunan - Jasa Pasang Kaca Film Kapal</title>
+    <link rel="icon" type="image/x-icon" href="{{asset ('assets/images/logokecil-makko.png')}}" />
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="{{asset ('assets/css/stylesets.css')}}" rel="stylesheet" />
+
+    <!-- Bootstrap 4 -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!-- Sweet Alert -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  </head>
+  <body id="page-top">
+    <!-- Masthead-->
+    <header class="masthead">
+      <div class="container px-4 px-lg-5 d-flex h-100 align-items-center justify-content-center">
+        <div class="d-flex justify-content-center">
+          <div class="text-center">
+            <img src="{{asset ('assets/images/makko.png')}}" alt="logo" style="width: 200px; height: 100px; object-fit: cover" />
+            <h1 class="mx-auto my-0 text-uppercase" style="font-size: 30px; line-height: 1.2">Distributor Resmi Berbagai Merk Kaca Film Di Indonesia</h1>
+            <h2 class="text-white-50 mx-auto mt-2 mb-5">Tersedia Untuk Mobil Bangunan dan Kapal</h2>
+            <a class="btn btn-primary" href="#about">Get Started</a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- About-->
+    <section class="about-section text-center" id="about">
+      <div class="container px-4 px-lg-5">
+        <div class="row gx-4 gx-lg-5 justify-content-center">
+          <div class="col-lg-8">
+            <h2 class="text-white mb-4">Tentang Kami</h2>
+            <p class="text-white-50" style="text-align:justify">
+                Kami adalah Indonesian Sole Distributor untuk kaca film berkualitas merk FIRST KLASS, MASTERPIECE, O2, BLACKLIST, SIGNATURE dan JOHNSON. MAKKO Group memiliki visi untuk menjadi yang terbesar dan terbaik dalam industri kaca
+                film di Indonesia. Untuk mencapai visi itu kami selalu mengutamakan kepuasan konsumen, kami percaya dengan fokus terhadap kualitas produk dan manajemen yang professional akan berdampak pada kinerja yang positif. Hingga kini,
+                produk kaca film dari MAKKO Group telah meraih berbagai penghargaan dan semakin diakui keberadaannya sebagai produk kaca film terbaik bagi masyarakat Indonesia.
+            </p>
+          </div>
+    </section>
+    <!-- Projects-->
+    <section class="projects-section bg-light" id="projects">
+      <div class="container px-4 px-lg-5">
+        <!-- Featured Project Row-->
+        <div class="row gx-0 mb-4 mb-lg-5 align-items-center">
+
+            <h2 class="text-black mb-4" style="text-align: center; padding-bottom: 50px;">Produk Kami</h2>
+            <!-- Produk 1 -->
+          <div class="col-xl-3 col-lg-4"><img class="img-fluid mb-3 mb-lg-0" src="{{asset ('assets/images/fk_logo.png')}}" alt="..." /></div>
+          <div class="col-xl-9 col-lg-8 pb-5">
+            <div class="featured-text text-center text-lg-left">
+              <h4>FIRST KLASS</h4>
+              <p class="text-black-50 mb-0">FIRST KLASS merupakan kaca film Nano Hybrid Serum yang diciptakan dengan teknologi teratas (top of top technology) dari pabrikan kaca film kelas dunia. FIRST KLASS produk kaca film terbaik dengan spesifikasi tertinggi, kemampuan menolak panas infrared dan sinar ultraviolet yang sempurna, mengandung SPF 1300+ sehingga dapat mencegah kanker kulit dan kerusakan mata akibat sinar matahari.</p>
+            </div>
+          </div>
+
+          <!-- Produk 2 -->
+          <div class="col-xl-3 col-lg-4"><img class="img-fluid mb-3 mb-lg-0" src="{{asset ('assets/images/masterpiece_logo.png')}}" alt="..." /></div>
+          <div class="col-xl-9 col-lg-8 pb-5">
+            <div class="featured-text text-center text-lg-left">
+              <h4>MASTERPIECE</h4>
+              <p class="text-black-50 mb-0">Kaca film MASTERPIECE adalah produk dengan perpaduan 2 (dua) teknologi terbaik dari Jepang yang merupakan kombinasi dari teknologi sputter (sputtered technology) dan teknologi perisai panas (heat shielding technology), sehingga menghasilkan kaca film dengan kekuatan untuk menolak panas serta membentuk suatu perisai yang hebat dalam menangkal sinar ultraviolet dan infrared dari panas matahari. </p>
+            </div>
+          </div>
+
+          <!-- Produk 3 -->
+          <div class="col-xl-3 col-lg-4"><img class="img-fluid mb-3 mb-lg-0" src="{{asset ('assets/images/o2_logo.png')}}" alt="..." /></div>
+          <div class="col-xl-9 col-lg-8 pb-5">
+            <div class="featured-text text-center text-lg-left">
+              <h4>Kaca Film O2</h4>
+              <p class="text-black-50 mb-0">Kaca film O2 dirancang khusus untuk anda yang memperhatikan kesehatan diri anda dan keluarga. Selain berguna untuk menolak panas sinar matahari, kaca film O2 dibuat dari bahan yang bebas dari zat kimia beracun dan ramah lingkungan serta diproses dengan menggunakan Eco Technology yang dipadukan dengan Heat Shielding Technology (perisai panas), sehingga menghasilkan kaca film yang aman dan nyaman bagi anda dan keluarga.</p>
+            </div>
+          </div>
+
+
+          <!-- Produk 4 -->
+          <div class="col-xl-3 col-lg-4"><img class="img-fluid mb-3 mb-lg-0" src="{{asset ('assets/images/bl_logo.png')}}" alt="..." /></div>
+          <div class="col-xl-9 col-lg-8 pb-5">
+            <div class="featured-text text-center text-lg-left">
+              <h4>BLACKLIST</h4>
+              <p class="text-black-50 mb-0">BLACKLIST adalah brand kaca film yang dibuat untuk memberikan solusi yang tepat bagi anda dalam menolak panas infrared dan ultraviolet dari sinar matahari. Diciptakan dengan teknologi tercanggih Carbon Ceramic, membuat kaca film ini mampu mencapai kualitas tolak panas tinggi serta tingkat clarity (kejernihan) pandangan yang sempurna, sehingga menjadikan BLACKLIST sebagai standart produk kaca film terbaik kelas dunia.</p>
+            </div>
+          </div>
+
+          <!-- Produk 5 -->
+          <div class="col-xl-3 col-lg-4"><img class="img-fluid mb-3 mb-lg-0" src="{{asset ('assets/images/sg_logo.png')}}" alt="..." /></div>
+          <div class="col-xl-9 col-lg-8">
+            <div class="featured-text text-center text-lg-left">
+              <h4>SIGNATURE</h4>
+              <p class="text-black-50 mb-0">Kaca film SIGNATURE dibuat dengan bahan Titanium Nitrate (TiN) sehingga mempunyai Crystal Optical Clarity yang berfungsi untuk mengurangi ketegangan mata dan Color Lock System yang dapat membuat warna kaca film stabil. Kaca film SIGNATURE terdiri dari 2 series yaitu Chrome dan Stone, dengan tingkat kegelapan bervariasi.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="py-5 mt-4 bg-dark">
+        <div class="container">
+          <h3 class="text-center mb-4 text-white">Berita Tentang Produk</h3>
+          <div id="cardCarousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <!-- Slide 1 -->
+              <div class="carousel-item active">
+                <div class="row">
+                  <div class="col-md-4">
+                    <div class="card shadow-sm d-flex flex-column">
+                      <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Berita Tentang First Klass Window Film</h5>
+                        <img class="align-content-center"  src="{{asset ('assets/images/berita-fk.jpg')}}" alt="">
+                        <p class="card-text">Kaca Film Buatan korea ini diklaim ampuh tangkal katarak dan kanker kulit</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card shadow-sm d-flex flex-column">
+                      <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Berita tentang masterpiece window film</h5>
+                        <img src="{{asset ('assets/images/berita-masterpiece.jpg')}}" alt="">
+                        <p class="card-text">Masterpiece luncurkan kaca film baru di 2023, bisa tetap terang meski malam hari</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card shadow-sm d-flex flex-column">
+                      <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Berita Tentang Masterpiece Paint Protection Film</h5>
+                        <img src="{{asset ('assets/images/berita-masterpiece2.jpg')}}" alt="">
+                        <p class="card-text">Atasi mobil cepat pudar, teknologi TPU+pada paint protection film bisa jadi solusi</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Slide 2 -->
+              <div class="carousel-item">
+                <div class="row">
+                  <div class="col-md-4">
+                    <div class="card shadow-sm d-flex flex-column">
+                      <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Berita Tentang O2 Windows Film</h5>
+                        <img src="{{asset ('assets/images/berita-o2.jpeg')}}" alt="">
+                        <p class="card-text">Kaca film o2 Hadir dengan baru metalic stone by oto.co.id</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card shadow-sm d-flex flex-column">
+                      <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Berita Tentang Blacklist Windows Film</h5>
+                        <img src="{{asset ('assets/images/berita-bl.png')}}" alt="">
+                        <p class="card-text">Sisipan Otomotif, No. 660,2 - 8 Juni 2016</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card shadow-sm d-flex flex-column">
+                      <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Berita Tentang Signature Window Film</h5>
+                        <img src="{{asset ('assets/images/berita-sg.png')}}" alt="">
+                        <p class="card-text">Housingestate, September 2015, hal. 120</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Carousel Controls -->
+            <a class="carousel-control-prev" href="#cardCarousel" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#cardCarousel" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Form -->
+    <section class="py-5 bg-light">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-md-8 col-lg-6">
+              <div class="card shadow-sm border-0">
+                <div class="card-body">
+                  <h3 class="card-title text-center mb-4">Contact Us!</h3>
+                  <form id="contactForm" method="POST" novalidate>
+                    <div class="form-group">
+                      <label for="name">Nama</label>
+                      <input type="text" class="form-control" id="name" name="name" required />
+                      <div class="invalid-feedback">Tolong masukkan nama yang benar!</div>
+                    </div>
+                    <div class="form-group">
+                      <label for="email">Email</label>
+                      <input type="email" class="form-control" id="email" name="email" required />
+                      <div class="invalid-feedback">Tolong masukkan alamat email yang valid!</div>
+                    </div>
+                    <div class="form-group">
+                      <label for="message">Pesan</label>
+                      <textarea class="form-control" id="message" name="message" rows="4" required placeholder="Masukkan pesan..."></textarea>
+                      <div class="invalid-feedback">Tolong masukkan pesan anda!</div>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block">Kirim pesan!</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <script>
+        document.getElementById("contactForm").addEventListener("submit", function (event) {
+          event.preventDefault(); // Selalu mencegah submit form default
+          const form = event.target;
+
+          if (!form.checkValidity()) {
+            form.classList.add("was-validated");
+
+            // Tampilkan alert jika tidak valid
+            Swal.fire({
+              icon: "error",
+              title: "Form tidak lengkap!",
+              text: "Harap isi semua field yang diperlukan.",
+              confirmButtonColor: "#d33",
+            });
+          } else {
+            // Form valid — tampilkan konfirmasi dan reset form
+            Swal.fire({
+              icon: "success",
+              title: "Berhasil!",
+              text: "Pesan Anda berhasil dikirim.",
+              confirmButtonColor: "#3085d6",
+            }).then(() => {
+              form.reset(); // Reset input
+              form.classList.remove("was-validated"); // Hapus status validasi
+            });
+          }
+        });
+      </script>
+
+    <!-- Footer-->
+    <footer class="footer bg-black small text-center text-white-50"><div class="container px-4 px-lg-5">Copyright &copy; Your Website 2023</div></footer>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="{{asset ('assets/js/scripts.js')}}"></script>
+    <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+    <!-- * *                               SB Forms JS                               * *-->
+    <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+    <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+    <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+  </body>
+</html>
