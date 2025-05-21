@@ -2,6 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Coba;
+use App\Http\Controllers\PegawaiController;
+use App\Http\Controllers\BlogController;
 
 /*
 |--------------------------------------------------------------------------
@@ -33,6 +35,7 @@ Route::get('blog', function () {
 
 Route::get('hello', [Coba::class, 'helloworld']);
 
+//Route untuk TUGAS 1 - ETS
 Route::get('pertama', function () {
 	return view('pertama');
 });
@@ -74,3 +77,14 @@ Route::get('frontend', function () {
 	return view('kumpulanlink');
 });
 
+Route::get('dosen', [Coba::class, 'index']);
+
+Route::get('pegawai/{nama}', [PegawaiController::class, 'index']);
+
+Route::get('/formulir', [PegawaiController::class, 'formulir']); //Halaman isian formulir
+Route::post('/formulir/proses', [PegawaiController::class, 'proses']); //Action form
+
+//Route blog
+Route::get('/blog', [BlogController::class, 'home']);
+Route::get('/blog/tentang', [BlogController::class, 'tentang']);
+Route::get('/blog/kontak', [BlogController::class, 'kontak']);
