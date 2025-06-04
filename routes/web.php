@@ -93,6 +93,7 @@ Route::get('/blog/kontak', [BlogController::class, 'kontak']);
 
 //Route CRUD
 Route::get('/pegawai', [PegawaiDBController::class, 'index']);
+Route::get('/pegawai/cari', [PegawaiDBController::class, 'cari']);
 
 //CRUD (Tambah)
 Route::get('/pegawai/tambah', [PegawaiDBController::class, 'tambah']);
