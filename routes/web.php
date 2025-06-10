@@ -5,6 +5,7 @@ use App\Http\Controllers\Coba;
 use App\Http\Controllers\PegawaiController;
 use App\Http\Controllers\PegawaiDBController;
 use App\Http\Controllers\BlogController;
+use App\Http\Controllers\TrukController;
 
 /*
 |--------------------------------------------------------------------------
@@ -105,3 +106,23 @@ Route::post('/pegawai/update', [PegawaiDBController::class, 'update']);
 
 //CRUD (Hapus)
 Route::get('/pegawai/hapus/{id}', [PegawaiDBController::class, 'hapus']);
+
+
+//TUGAS CRUD (TRUK)
+//ROUTE TUGAS CRUD
+Route::get('/tugasCRUD', [TrukController::class, 'home_truk'])->name('truk.index');
+
+// Route untuk menampilkan form tambah
+Route::get('/truk/tambah', [TrukController::class, 'tambah'])->name('truk.tambah');
+
+// Route untuk memproses data dari form tambah
+Route::post('/truk/store', [TrukController::class, 'store'])->name('truk.store');
+
+// Route untuk menampilkan form edit
+Route::get('/truk/edit/{id}', [TrukController::class, 'edit'])->name('truk.edit');
+
+// Route untuk memproses data dari form edit
+Route::put('/truk/update/{id}', [TrukController::class, 'update'])->name('truk.update');
+
+//Route untuk hapus data
+Route::get('/truk/hapus/{id}', [TrukController::class, 'hapus'])->name('truk.hapus');
