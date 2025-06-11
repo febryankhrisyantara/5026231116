@@ -6,6 +6,7 @@ use App\Http\Controllers\PegawaiController;
 use App\Http\Controllers\PegawaiDBController;
 use App\Http\Controllers\BlogController;
 use App\Http\Controllers\TrukController;
+use App\Http\Controllers\KaryawanController;
 
 /*
 |--------------------------------------------------------------------------
@@ -126,3 +127,18 @@ Route::put('/truk/update/{id}', [TrukController::class, 'update'])->name('truk.u
 
 //Route untuk hapus data
 Route::get('/truk/hapus/{id}', [TrukController::class, 'hapus'])->name('truk.hapus');
+
+
+
+//TUGAS LATIHAN PRIA GENAP
+//Route index_karyawan
+Route::get('/kodeX2', [KaryawanController::class, 'index'])->name('karyawan.index');
+
+// Route untuk menampilkan form tambah
+Route::get('/karyawan/tambah', [KaryawanController::class, 'tambah'])->name('karyawan.tambah');
+
+// Route untuk memproses data dari form tambah
+Route::post('/karyawan/store', [KaryawanController::class, 'store'])->name('karyawan.store');
+
+//Route untuk hapus data
+Route::get('/karyawan/hapus/{kodepegawai}', [KaryawanController::class, 'hapus'])->name('karyawan.hapus');
