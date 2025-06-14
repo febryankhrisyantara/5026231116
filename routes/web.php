@@ -7,6 +7,8 @@ use App\Http\Controllers\PegawaiDBController;
 use App\Http\Controllers\BlogController;
 use App\Http\Controllers\TrukController;
 use App\Http\Controllers\KaryawanController;
+use App\Http\Controllers\TrafficController;
+use App\Http\Controllers\KeranjangBelanjaDBController;
 
 /*
 |--------------------------------------------------------------------------
@@ -142,3 +144,14 @@ Route::post('/karyawan/store', [KaryawanController::class, 'store'])->name('kary
 
 //Route untuk hapus data
 Route::get('/karyawan/hapus/{kodepegawai}', [KaryawanController::class, 'hapus'])->name('karyawan.hapus');
+
+//TUGAS LATIHAN PRIA GANJIL
+Route::get('/latihan2', [TrafficController::class, 'index']);
+
+//TUGAS LATIHAN WANITA
+Route::get('/keranjangbelanja', [KeranjangBelanjaDBController::class, 'index']);
+
+Route::get('/keranjangbelanja/beli', [KeranjangBelanjaDBController::class, 'beli']);
+Route::post('/keranjangbelanja/store', [KeranjangBelanjaDBController:: class, 'store']);
+
+Route::get('/keranjangbelanja/batal/{ID}', [KeranjangBelanjaDBController:: class, 'batal']);
