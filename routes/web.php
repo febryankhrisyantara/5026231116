@@ -162,4 +162,4 @@ Route::get('/eas', [NilaiController::class, 'index']);
 
 Route::get('/nilai/tambah', [NilaiController::class, 'tambah']);
 
-Route::get('/nilai/store', [NilaiController::class, 'store']);
+Route::post('/nilai/store', [NilaiController::class, 'store']);
