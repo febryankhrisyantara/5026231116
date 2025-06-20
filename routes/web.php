@@ -9,6 +9,7 @@ use App\Http\Controllers\TrukController;
 use App\Http\Controllers\KaryawanController;
 use App\Http\Controllers\TrafficController;
 use App\Http\Controllers\KeranjangBelanjaDBController;
+use App\Http\Controllers\NilaiController;
 
 /*
 |--------------------------------------------------------------------------
@@ -155,3 +156,10 @@ Route::get('/keranjangbelanja/beli', [KeranjangBelanjaDBController::class, 'beli
 Route::post('/keranjangbelanja/store', [KeranjangBelanjaDBController:: class, 'store']);
 
 Route::get('/keranjangbelanja/batal/{ID}', [KeranjangBelanjaDBController:: class, 'batal']);
+
+//TUGAS EAS
+Route::get('/eas', [NilaiController::class, 'index']);
+
+Route::get('/nilai/tambah', [NilaiController::class, 'tambah']);
+
+Route::get('/nilai/store', [NilaiController::class, 'store']);
